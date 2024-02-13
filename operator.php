@@ -8,5 +8,5 @@ if (($varsta > 12) && ($varsta < 20)) {
 } else {
     $mesaj=" вы в рассвете сил ... приступайте к работе!";
 }
-$nume = "Аня";
-echo ($nume) ? $nume .', '. $mesaj : 'Anonymous, ' . $mesaj;
+$nume = "Аня" ? "Аня" : 'Anonymus';
+echo $nume . $mesaj;
